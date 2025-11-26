@@ -2,17 +2,17 @@ import dotenv from 'dotenv';
 import express from 'express';
 import cors from 'cors';
 
-import multaRouter from '../Routes/MultaRouter';
-import reservaRouter from '../Routes/ReservaRouter';
-import autorRouter from '../Routes/AutorRouter';
-import personaRouter from '../Routes/PersonaRoutes';
-import authRouter from '../Routes/authRouter';
-import libroRouter from '../Routes/LibroRouter';
-import administradorRouter from '../Routes/AdministradorRouter';
-import clienteRouter from '../Routes/ClienteRouter';
-import stockRouter from '../Routes/StockRouter';  
-import signUpRouter from '../Routes/signUpRouter';
-import libroAutorRouter from '../Routes/LibroAutorRouter';
+import multaRouter from './Routes/MultaRouter';
+import reservaRouter from './Routes/ReservaRouter';
+import autorRouter from './Routes/AutorRouter';
+import personaRouter from './Routes/PersonaRoutes';
+import authRouter from './Routes/authRouter';
+import libroRouter from './Routes/LibroRouter';
+import administradorRouter from './Routes/AdministradorRouter';
+import clienteRouter from './Routes/ClienteRouter';
+import stockRouter from './Routes/StockRouter';  
+import signUpRouter from './Routes/signUpRouter';
+import libroAutorRouter from './Routes/LibroAutorRouter';
 
 dotenv.config();
 
